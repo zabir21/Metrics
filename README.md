@@ -26,5 +26,5 @@ Newtonsoft.Json;
 System.Data.SQLite.Core;
 System.Diagnostics.PerfomanceCounter.
 
-"MetricsManagerClient" 
+"MetricsManagerClient"
 ![image](https://github.com/zabir21/Metrics/assets/121787143/36e9d61a-7d1f-4c0f-b2c9-f3d800427867)
