@@ -12,17 +12,31 @@
 3. Клиент для сбора метрик (MetricsManagerClient) приложение имеющее минимальный функционал для отображения метрик полученных с Менеджера сбора метрик (графики загруженности по-умолчанию: CPU, HDD, RAM). На Агента сбора метрик и Менеджера сбора метрик написаны ЮнитТесты с использованием библиотеки Moq. Все три приложения имеют логгирование. Архитектура проекта позволяет расширять функциональность всего проекта. При создании клиента, который обращается к контроллерам Агента использовался автосгенерированный класс (с помощью NSwag Studio). При создании проекта использовались nuGet пакеты:
 
 AutoMapper.Extensions.Microsoft.DependencyInjection;
+
 Dapper;
+
 FluentMigrator;
+
 FluentMigrator.Runner;
+
 FluentMigrator.Renner.SQLite;
+
 Microsoft.Extensions.DependencyInjection;
+
 Moq;
+
 NLog;
+
 NLog.Web.AspNetCore;
+
 Quartz;
+
 Swashbuckle.AspNetCore;
+
 Newtonsoft.Json;
+
 System.Data.SQLite.Core;
+
 System.Diagnostics.PerfomanceCounter.
+
 "MetricsManagerClient" alt tag![image](https://github.com/zabir21/Metrics/assets/121787143/36e9d61a-7d1f-4c0f-b2c9-f3d800427867)
